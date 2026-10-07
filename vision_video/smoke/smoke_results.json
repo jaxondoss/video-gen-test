@@ -1,0 +1,24 @@
+{
+ "cf/sdxl-base": {
+  "ok": true,
+  "native": "768x1344",
+  "secs": 0.0,
+  "file": "/home/user/video-gen-test/vision_video/cache/cc02a82eb716b0d9d71c.png"
+ },
+ "cf/sdxl-lightning": {
+  "ok": true,
+  "native": "768x1344",
+  "secs": 0.0,
+  "file": "/home/user/video-gen-test/vision_video/cache/f09635fe1e757749f795.png"
+ },
+ "cf/flux-schnell": {
+  "ok": true,
+  "native": "1024x1024",
+  "secs": 13.6,
+  "file": "/home/user/video-gen-test/vision_video/cache/0653430a5af6645ad2f1.png"
+ },
+ "hf/flux-schnell": {
+  "ok": false,
+  "error": "402 from hf/flux-schnell: free quota exhausted, not retrying"
+ }
+}

@@ -1,0 +1,826 @@
+{
+ "shots": {
+  "1": {
+   "frames": 48,
+   "phase": "A",
+   "motion": "push_in",
+   "transition": "grid_zoom",
+   "prompt": "POV hands typing on a laptop in a dark room at 3am, screen glow lighting the hands, blurred city lights through window behind, cold blue and teal tones, desaturated, dark, candid camera-roll photo, 35mm lens, natural light, shallow depth of field, subtle film grain, cinematic, photorealistic, seen from behind, faceless",
+   "negative": "text, letters, words, logos, brand names, watermark, captions, license plates, signage, UI elements, face, eyes, looking at camera, portrait, money, cash, cartoon, illustration, painting, 3d render, deformed hands, extra fingers, blurry, lowres",
+   "candidates": [
+    {
+     "seed": 11,
+     "model": "cf/sdxl-base",
+     "file": "stills/raw/shot01_s11.png",
+     "secs": 9.5
+    },
+    {
+     "seed": 23,
+     "model": "cf/sdxl-base",
+     "file": "stills/raw/shot01_s23.png",
+     "secs": 10.9
+    }
+   ],
+   "pick": 11,
+   "canvas": "stills/canvas/shot01.jpg",
+   "depth": "stills/depth/shot01.png",
+   "still": "stills/final/shot01.jpg",
+   "upscaler": "Real-ESRGAN general x4v3 (ONNX, CPU) + Lanczos",
+   "depth_model": "Depth Anything V2 Small (ONNX, CPU)"
+  },
+  "2": {
+   "frames": 36,
+   "phase": "A",
+   "motion": "drift",
+   "transition": "cut",
+   "prompt": "rain streaking down a floor-to-ceiling window at night, blurred city lights bokeh, distant lightning flash, empty dark apartment, cold blue and teal tones, desaturated, dark, candid camera-roll photo, 35mm lens, natural light, shallow depth of field, subtle film grain, cinematic, photorealistic, seen from behind, faceless",
+   "negative": "text, letters, words, logos, brand names, watermark, captions, license plates, signage, UI elements, face, eyes, looking at camera, portrait, money, cash, cartoon, illustration, painting, 3d render, deformed hands, extra fingers, blurry, lowres",
+   "candidates": [
+    {
+     "seed": 11,
+     "model": "cf/sdxl-base",
+     "file": "stills/raw/shot02_s11.png",
+     "secs": 10.3
+    },
+    {
+     "seed": 23,
+     "model": "cf/sdxl-base",
+     "file": "stills/raw/shot02_s23.png",
+     "secs": 10.8
+    }
+   ],
+   "pick": 23,
+   "canvas": "stills/canvas/shot02.jpg",
+   "depth": "stills/depth/shot02.png",
+   "still": "stills/final/shot02.jpg",
+   "upscaler": "Real-ESRGAN general x4v3 (ONNX, CPU) + Lanczos",
+   "depth_model": "Depth Anything V2 Small (ONNX, CPU)"
+  },
+  "3": {
+   "frames": 36,
+   "phase": "A",
+   "motion": "push_in_slow",
+   "transition": "cut",
+   "prompt": "side view of a hand pressing a laptop screen half closed, lid nearly shut, thin sliver of screen glow, dark desk at night, cold blue and teal tones, desaturated, dark, candid camera-roll photo, 35mm lens, natural light, shallow depth of field, subtle film grain, cinematic, photorealistic, seen from behind, faceless",
+   "negative": "text, letters, words, logos, brand names, watermark, captions, license plates, signage, UI elements, face, eyes, looking at camera, portrait, money, cash, cartoon, illustration, painting, 3d render, deformed hands, extra fingers, blurry, lowres, numbers, emblem, badge, dial markings",
+   "rejected": [
+    {
+     "seed": 11,
+     "model": "cf/sdxl-base",
+     "file": "stills/raw/shot03_s11.png",
+     "secs": 10.6
+    },
+    {
+     "seed": 23,
+     "model": "cf/sdxl-base",
+     "file": "stills/raw/shot03_s23.png",
+     "secs": 10.4
+    }
+   ],
+   "candidates": [
+    {
+     "seed": 37,
+     "model": "cf/sdxl-base",
+     "file": "stills/raw/shot03_s37.png",
+     "secs": 9.4
+    },
+    {
+     "seed": 51,
+     "model": "cf/sdxl-base",
+     "file": "stills/raw/shot03_s51.png",
+     "secs": 11.1
+    },
+    {
+     "seed": 64,
+     "model": "cf/sdxl-base",
+     "file": "stills/raw/shot03_s64.png",
+     "secs": 10.7
+    }
+   ],
+   "pick": 37,
+   "canvas": "stills/canvas/shot03.jpg",
+   "depth": "stills/depth/shot03.png",
+   "still": "stills/final/shot03.jpg",
+   "upscaler": "Real-ESRGAN general x4v3 (ONNX, CPU) + Lanczos",
+   "depth_model": "Depth Anything V2 Small (ONNX, CPU)"
+  },
+  "4": {
+   "frames": 36,
+   "phase": "B",
+   "motion": "push_in",
+   "transition": "match_cut",
+   "prompt": "hand pushing open a private jet cabin door, bright warm golden sunlight flooding in, airstairs below, tarmac, cool blue light turning warm, warm golden light spilling in, candid camera-roll photo, 35mm lens, natural light, shallow depth of field, subtle film grain, cinematic, photorealistic, seen from behind, faceless",
+   "negative": "text, letters, words, logos, brand names, watermark, captions, license plates, signage, UI elements, face, eyes, looking at camera, portrait, money, cash, cartoon, illustration, painting, 3d render, deformed hands, extra fingers, blurry, lowres",
+   "candidates": [
+    {
+     "seed": 11,
+     "model": "cf/sdxl-base",
+     "file": "stills/raw/shot04_s11.png",
+     "secs": 9.4
+    },
+    {
+     "seed": 23,
+     "model": "cf/sdxl-base",
+     "file": "stills/raw/shot04_s23.png",
+     "secs": 9.4
+    }
+   ],
+   "pick": 23,
+   "canvas": "stills/canvas/shot04.jpg",
+   "depth": "stills/depth/shot04.png",
+   "still": "stills/final/shot04.jpg",
+   "upscaler": "Real-ESRGAN general x4v3 (ONNX, CPU) + Lanczos",
+   "depth_model": "Depth Anything V2 Small (ONNX, CPU)"
+  },
+  "5": {
+   "frames": 24,
+   "phase": "B",
+   "motion": "slide_left",
+   "transition": "light_leak",
+   "prompt": "luxury leather luggage and a duffel bag beside a black SUV on a private jet tarmac at dusk, jet in background, cool blue light turning warm, warm golden light spilling in, candid camera-roll photo, 35mm lens, natural light, shallow depth of field, subtle film grain, cinematic, photorealistic, seen from behind, faceless",
+   "negative": "text, letters, words, logos, brand names, watermark, captions, license plates, signage, UI elements, face, eyes, looking at camera, portrait, money, cash, cartoon, illustration, painting, 3d render, deformed hands, extra fingers, blurry, lowres",
+   "candidates": [
+    {
+     "seed": 11,
+     "model": "cf/sdxl-base",
+     "file": "stills/raw/shot05_s11.png",
+     "secs": 9.4
+    },
+    {
+     "seed": 23,
+     "model": "cf/sdxl-base",
+     "file": "stills/raw/shot05_s23.png",
+     "secs": 11.3
+    }
+   ],
+   "pick": 11,
+   "canvas": "stills/canvas/shot05.jpg",
+   "depth": "stills/depth/shot05.png",
+   "still": "stills/final/shot05.jpg",
+   "upscaler": "Real-ESRGAN general x4v3 (ONNX, CPU) + Lanczos",
+   "depth_model": "Depth Anything V2 Small (ONNX, CPU)"
+  },
+  "6": {
+   "frames": 36,
+   "phase": "B",
+   "motion": "orbit",
+   "transition": "cut",
+   "prompt": "private jet cabin interior, cream leather seats, fruit plate on table, dark silhouette of a young man seated by the oval window, seen from behind, cool blue light turning warm, warm golden light spilling in, candid camera-roll photo, 35mm lens, natural light, shallow depth of field, subtle film grain, cinematic, photorealistic, seen from behind, faceless",
+   "negative": "text, letters, words, logos, brand names, watermark, captions, license plates, signage, UI elements, face, eyes, looking at camera, portrait, money, cash, cartoon, illustration, painting, 3d render, deformed hands, extra fingers, blurry, lowres",
+   "candidates": [
+    {
+     "seed": 11,
+     "model": "cf/sdxl-base",
+     "file": "stills/raw/shot06_s11.png",
+     "secs": 9.3
+    },
+    {
+     "seed": 23,
+     "model": "cf/sdxl-base",
+     "file": "stills/raw/shot06_s23.png",
+     "secs": 11.6
+    }
+   ],
+   "pick": 23,
+   "canvas": "stills/canvas/shot06.jpg",
+   "depth": "stills/depth/shot06.png",
+   "still": "stills/final/shot06.jpg",
+   "upscaler": "Real-ESRGAN general x4v3 (ONNX, CPU) + Lanczos",
+   "depth_model": "Depth Anything V2 Small (ONNX, CPU)"
+  },
+  "7": {
+   "frames": 24,
+   "phase": "Cn",
+   "motion": "push_in",
+   "transition": "whip",
+   "prompt": "low front three-quarter view of a black car, sleek glowing LED headlights at night, smooth hood, rain-wet reflective pavement, bokeh, night, deep blue and warm amber city lights, candid camera-roll photo, 35mm lens, natural light, shallow depth of field, subtle film grain, cinematic, photorealistic, seen from behind, faceless",
+   "negative": "text, letters, words, logos, brand names, watermark, captions, license plates, signage, UI elements, face, eyes, looking at camera, portrait, money, cash, cartoon, illustration, painting, 3d render, deformed hands, extra fingers, blurry, lowres, numbers, emblem, badge, dial markings",
+   "rejected": [
+    {
+     "seed": 11,
+     "model": "cf/sdxl-base",
+     "file": "stills/raw/shot07_s11.png",
+     "secs": 9.4
+    },
+    {
+     "seed": 23,
+     "model": "cf/sdxl-base",
+     "file": "stills/raw/shot07_s23.png",
+     "secs": 11.5
+    }
+   ],
+   "candidates": [
+    {
+     "seed": 37,
+     "model": "cf/sdxl-base",
+     "file": "stills/raw/shot07_s37.png",
+     "secs": 9.1
+    },
+    {
+     "seed": 51,
+     "model": "cf/sdxl-base",
+     "file": "stills/raw/shot07_s51.png",
+     "secs": 9.3
+    },
+    {
+     "seed": 64,
+     "model": "cf/sdxl-base",
+     "file": "stills/raw/shot07_s64.png",
+     "secs": 10.9
+    }
+   ],
+   "pick": 51,
+   "canvas": "stills/canvas/shot07.jpg",
+   "depth": "stills/depth/shot07.png",
+   "still": "stills/final/shot07.jpg",
+   "upscaler": "Real-ESRGAN general x4v3 (ONNX, CPU) + Lanczos",
+   "depth_model": "Depth Anything V2 Small (ONNX, CPU)"
+  },
+  "8": {
+   "frames": 24,
+   "phase": "B",
+   "motion": "slide_right",
+   "transition": "cut",
+   "prompt": "POV laptop on a white table on a yacht deck, turquoise sea and rocky coastline through the window, sunlight, cool blue light turning warm, warm golden light spilling in, candid camera-roll photo, 35mm lens, natural light, shallow depth of field, subtle film grain, cinematic, photorealistic, seen from behind, faceless",
+   "negative": "text, letters, words, logos, brand names, watermark, captions, license plates, signage, UI elements, face, eyes, looking at camera, portrait, money, cash, cartoon, illustration, painting, 3d render, deformed hands, extra fingers, blurry, lowres",
+   "candidates": [
+    {
+     "seed": 11,
+     "model": "cf/sdxl-base",
+     "file": "stills/raw/shot08_s11.png",
+     "secs": 9.9
+    },
+    {
+     "seed": 23,
+     "model": "cf/sdxl-base",
+     "file": "stills/raw/shot08_s23.png",
+     "secs": 10.5
+    }
+   ],
+   "pick": 11,
+   "canvas": "stills/canvas/shot08.jpg",
+   "depth": "stills/depth/shot08.png",
+   "still": "stills/final/shot08.jpg",
+   "upscaler": "Real-ESRGAN general x4v3 (ONNX, CPU) + Lanczos",
+   "depth_model": "Depth Anything V2 Small (ONNX, CPU)"
+  },
+  "9": {
+   "frames": 24,
+   "phase": "B",
+   "motion": "pull_out",
+   "transition": "light_leak",
+   "prompt": "silhouette of a young man standing at a penthouse floor-to-ceiling window, huge city skyline at sunset, seen from behind, cool blue light turning warm, warm golden light spilling in, candid camera-roll photo, 35mm lens, natural light, shallow depth of field, subtle film grain, cinematic, photorealistic, seen from behind, faceless",
+   "negative": "text, letters, words, logos, brand names, watermark, captions, license plates, signage, UI elements, face, eyes, looking at camera, portrait, money, cash, cartoon, illustration, painting, 3d render, deformed hands, extra fingers, blurry, lowres",
+   "candidates": [
+    {
+     "seed": 11,
+     "model": "cf/sdxl-base",
+     "file": "stills/raw/shot09_s11.png",
+     "secs": 11.0
+    },
+    {
+     "seed": 23,
+     "model": "cf/sdxl-base",
+     "file": "stills/raw/shot09_s23.png",
+     "secs": 9.7
+    }
+   ],
+   "pick": 23,
+   "canvas": "stills/canvas/shot09.jpg",
+   "depth": "stills/depth/shot09.png",
+   "still": "stills/final/shot09.jpg",
+   "upscaler": "Real-ESRGAN general x4v3 (ONNX, CPU) + Lanczos",
+   "depth_model": "Depth Anything V2 Small (ONNX, CPU)"
+  },
+  "10": {
+   "frames": 12,
+   "phase": "C",
+   "motion": "push_in",
+   "transition": "cut",
+   "prompt": "POV hand holding a small white espresso cup, plain steel bracelet watch seen from the side, stone table, morning sun, warm golden hour light, amber and teal, rich contrast, candid camera-roll photo, 35mm lens, natural light, shallow depth of field, subtle film grain, cinematic, photorealistic, seen from behind, faceless",
+   "negative": "text, letters, words, logos, brand names, watermark, captions, license plates, signage, UI elements, face, eyes, looking at camera, portrait, money, cash, cartoon, illustration, painting, 3d render, deformed hands, extra fingers, blurry, lowres, numbers, emblem, badge, dial markings",
+   "rejected": [
+    {
+     "seed": 11,
+     "model": "cf/sdxl-base",
+     "file": "stills/raw/shot10_s11.png",
+     "secs": 9.3
+    },
+    {
+     "seed": 23,
+     "model": "cf/sdxl-base",
+     "file": "stills/raw/shot10_s23.png",
+     "secs": 11.4
+    }
+   ],
+   "candidates": [
+    {
+     "seed": 37,
+     "model": "cf/sdxl-base",
+     "file": "stills/raw/shot10_s37.png",
+     "secs": 9.5
+    },
+    {
+     "seed": 51,
+     "model": "cf/sdxl-base",
+     "file": "stills/raw/shot10_s51.png",
+     "secs": 11.0
+    },
+    {
+     "seed": 64,
+     "model": "cf/sdxl-base",
+     "file": "stills/raw/shot10_s64.png",
+     "secs": 11.1
+    }
+   ],
+   "pick": 51,
+   "canvas": "stills/canvas/shot10.jpg",
+   "depth": "stills/depth/shot10.png",
+   "still": "stills/final/shot10.jpg",
+   "upscaler": "Real-ESRGAN general x4v3 (ONNX, CPU) + Lanczos",
+   "depth_model": "Depth Anything V2 Small (ONNX, CPU)"
+  },
+  "11": {
+   "frames": 12,
+   "phase": "C",
+   "motion": "slide_left",
+   "transition": "cut",
+   "prompt": "black sports car and black boxy luxury SUV parked on a stone driveway under golden autumn trees, mansion, warm golden hour light, amber and teal, rich contrast, candid camera-roll photo, 35mm lens, natural light, shallow depth of field, subtle film grain, cinematic, photorealistic, seen from behind, faceless",
+   "negative": "text, letters, words, logos, brand names, watermark, captions, license plates, signage, UI elements, face, eyes, looking at camera, portrait, money, cash, cartoon, illustration, painting, 3d render, deformed hands, extra fingers, blurry, lowres",
+   "candidates": [
+    {
+     "seed": 11,
+     "model": "cf/sdxl-base",
+     "file": "stills/raw/shot11_s11.png",
+     "secs": 9.4
+    },
+    {
+     "seed": 23,
+     "model": "cf/sdxl-base",
+     "file": "stills/raw/shot11_s23.png",
+     "secs": 10.8
+    }
+   ],
+   "pick": 11,
+   "canvas": "stills/canvas/shot11.jpg",
+   "depth": "stills/depth/shot11.png",
+   "still": "stills/final/shot11.jpg",
+   "upscaler": "Real-ESRGAN general x4v3 (ONNX, CPU) + Lanczos",
+   "depth_model": "Depth Anything V2 Small (ONNX, CPU)"
+  },
+  "12": {
+   "frames": 24,
+   "phase": "C",
+   "motion": "slide_right",
+   "transition": "whip",
+   "prompt": "infinity pool edge overlooking a futuristic coastal skyline at sunset, two distant silhouettes on loungers, palm leaf foreground, warm golden hour light, amber and teal, rich contrast, candid camera-roll photo, 35mm lens, natural light, shallow depth of field, subtle film grain, cinematic, photorealistic, seen from behind, faceless",
+   "negative": "text, letters, words, logos, brand names, watermark, captions, license plates, signage, UI elements, face, eyes, looking at camera, portrait, money, cash, cartoon, illustration, painting, 3d render, deformed hands, extra fingers, blurry, lowres",
+   "candidates": [
+    {
+     "seed": 11,
+     "model": "cf/sdxl-base",
+     "file": "stills/raw/shot12_s11.png",
+     "secs": 9.4
+    },
+    {
+     "seed": 23,
+     "model": "cf/sdxl-base",
+     "file": "stills/raw/shot12_s23.png",
+     "secs": 10.2
+    }
+   ],
+   "pick": 23,
+   "canvas": "stills/canvas/shot12.jpg",
+   "depth": "stills/depth/shot12.png",
+   "still": "stills/final/shot12.jpg",
+   "upscaler": "Real-ESRGAN general x4v3 (ONNX, CPU) + Lanczos",
+   "depth_model": "Depth Anything V2 Small (ONNX, CPU)"
+  },
+  "13": {
+   "frames": 24,
+   "phase": "C",
+   "motion": "push_in",
+   "transition": "cut",
+   "prompt": "back of head of a young man with dark curly hair, laptop on knees, over-the-shoulder view from behind, cliffside Mediterranean balcony, turquoise sea far below, warm golden hour light, amber and teal, rich contrast, candid camera-roll photo, 35mm lens, natural light, shallow depth of field, subtle film grain, cinematic, photorealistic, seen from behind, faceless",
+   "negative": "text, letters, words, logos, brand names, watermark, captions, license plates, signage, UI elements, face, eyes, looking at camera, portrait, money, cash, cartoon, illustration, painting, 3d render, deformed hands, extra fingers, blurry, lowres, numbers, emblem, badge, dial markings",
+   "rejected": [
+    {
+     "seed": 11,
+     "model": "cf/sdxl-base",
+     "file": "stills/raw/shot13_s11.png",
+     "secs": 9.5
+    },
+    {
+     "seed": 23,
+     "model": "cf/sdxl-base",
+     "file": "stills/raw/shot13_s23.png",
+     "secs": 10.5
+    }
+   ],
+   "candidates": [
+    {
+     "seed": 37,
+     "model": "cf/sdxl-base",
+     "file": "stills/raw/shot13_s37.png",
+     "secs": 19.0
+    },
+    {
+     "seed": 51,
+     "model": "cf/sdxl-base",
+     "file": "stills/raw/shot13_s51.png",
+     "secs": 9.5
+    },
+    {
+     "seed": 64,
+     "model": "cf/sdxl-base",
+     "file": "stills/raw/shot13_s64.png",
+     "secs": 11.2
+    }
+   ],
+   "pick": 51,
+   "canvas": "stills/canvas/shot13.jpg",
+   "depth": "stills/depth/shot13.png",
+   "still": "stills/final/shot13.jpg",
+   "upscaler": "Real-ESRGAN general x4v3 (ONNX, CPU) + Lanczos",
+   "depth_model": "Depth Anything V2 Small (ONNX, CPU)"
+  },
+  "14": {
+   "frames": 12,
+   "phase": "C",
+   "motion": "drift",
+   "transition": "cut",
+   "prompt": "sunlit yacht salon interior, laptop and coffee cup on a marble table, sea through large windows, warm golden hour light, amber and teal, rich contrast, candid camera-roll photo, 35mm lens, natural light, shallow depth of field, subtle film grain, cinematic, photorealistic, seen from behind, faceless",
+   "negative": "text, letters, words, logos, brand names, watermark, captions, license plates, signage, UI elements, face, eyes, looking at camera, portrait, money, cash, cartoon, illustration, painting, 3d render, deformed hands, extra fingers, blurry, lowres",
+   "candidates": [
+    {
+     "seed": 11,
+     "model": "cf/sdxl-base",
+     "file": "stills/raw/shot14_s11.png",
+     "secs": 9.3
+    },
+    {
+     "seed": 23,
+     "model": "cf/sdxl-base",
+     "file": "stills/raw/shot14_s23.png",
+     "secs": 10.9
+    }
+   ],
+   "pick": 11,
+   "canvas": "stills/canvas/shot14.jpg",
+   "depth": "stills/depth/shot14.png",
+   "still": "stills/final/shot14.jpg",
+   "upscaler": "Real-ESRGAN general x4v3 (ONNX, CPU) + Lanczos",
+   "depth_model": "Depth Anything V2 Small (ONNX, CPU)"
+  },
+  "15": {
+   "frames": 12,
+   "phase": "Cn",
+   "motion": "orbit",
+   "transition": "whip",
+   "prompt": "two silhouettes playing chess on a high night balcony, glowing skyscraper skyline behind, seen from behind, night, deep blue and warm amber city lights, candid camera-roll photo, 35mm lens, natural light, shallow depth of field, subtle film grain, cinematic, photorealistic, seen from behind, faceless",
+   "negative": "text, letters, words, logos, brand names, watermark, captions, license plates, signage, UI elements, face, eyes, looking at camera, portrait, money, cash, cartoon, illustration, painting, 3d render, deformed hands, extra fingers, blurry, lowres",
+   "candidates": [
+    {
+     "seed": 11,
+     "model": "cf/sdxl-base",
+     "file": "stills/raw/shot15_s11.png",
+     "secs": 10.7
+    },
+    {
+     "seed": 23,
+     "model": "cf/sdxl-base",
+     "file": "stills/raw/shot15_s23.png",
+     "secs": 9.8
+    }
+   ],
+   "pick": 23,
+   "canvas": "stills/canvas/shot15.jpg",
+   "depth": "stills/depth/shot15.png",
+   "still": "stills/final/shot15.jpg",
+   "upscaler": "Real-ESRGAN general x4v3 (ONNX, CPU) + Lanczos",
+   "depth_model": "Depth Anything V2 Small (ONNX, CPU)"
+  },
+  "16": {
+   "frames": 24,
+   "phase": "C",
+   "motion": "slide_left",
+   "transition": "cut",
+   "prompt": "modern glass house lounge over the ocean at sunset, two silhouettes relaxing on a sofa, warm horizon, warm golden hour light, amber and teal, rich contrast, candid camera-roll photo, 35mm lens, natural light, shallow depth of field, subtle film grain, cinematic, photorealistic, seen from behind, faceless",
+   "negative": "text, letters, words, logos, brand names, watermark, captions, license plates, signage, UI elements, face, eyes, looking at camera, portrait, money, cash, cartoon, illustration, painting, 3d render, deformed hands, extra fingers, blurry, lowres",
+   "candidates": [
+    {
+     "seed": 11,
+     "model": "cf/sdxl-base",
+     "file": "stills/raw/shot16_s11.png",
+     "secs": 10.7
+    },
+    {
+     "seed": 23,
+     "model": "cf/sdxl-base",
+     "file": "stills/raw/shot16_s23.png",
+     "secs": 10.7
+    }
+   ],
+   "pick": 11,
+   "canvas": "stills/canvas/shot16.jpg",
+   "depth": "stills/depth/shot16.png",
+   "still": "stills/final/shot16.jpg",
+   "upscaler": "Real-ESRGAN general x4v3 (ONNX, CPU) + Lanczos",
+   "depth_model": "Depth Anything V2 Small (ONNX, CPU)"
+  },
+  "17": {
+   "frames": 12,
+   "phase": "C",
+   "motion": "push_in",
+   "transition": "cut",
+   "prompt": "silver hard-shell suitcase on a palm-lined driveway, man in grey tracksuit walking away seen from behind, white SUV side silhouette, tall palm trees, sunset, warm golden hour light, amber and teal, rich contrast, candid camera-roll photo, 35mm lens, natural light, shallow depth of field, subtle film grain, cinematic, photorealistic, seen from behind, faceless",
+   "negative": "text, letters, words, logos, brand names, watermark, captions, license plates, signage, UI elements, face, eyes, looking at camera, portrait, money, cash, cartoon, illustration, painting, 3d render, deformed hands, extra fingers, blurry, lowres, numbers, emblem, badge, dial markings",
+   "rejected": [
+    {
+     "seed": 11,
+     "model": "cf/sdxl-base",
+     "file": "stills/raw/shot17_s11.png",
+     "secs": 10.2
+    },
+    {
+     "seed": 23,
+     "model": "cf/sdxl-base",
+     "file": "stills/raw/shot17_s23.png",
+     "secs": 10.5
+    }
+   ],
+   "candidates": [
+    {
+     "seed": 37,
+     "model": "cf/sdxl-base",
+     "file": "stills/raw/shot17_s37.png",
+     "secs": 11.0
+    },
+    {
+     "seed": 51,
+     "model": "cf/sdxl-base",
+     "file": "stills/raw/shot17_s51.png",
+     "secs": 21.5
+    },
+    {
+     "seed": 64,
+     "model": "cf/sdxl-base",
+     "file": "stills/raw/shot17_s64.png",
+     "secs": 10.8
+    }
+   ],
+   "pick": 51,
+   "canvas": "stills/canvas/shot17.jpg",
+   "depth": "stills/depth/shot17.png",
+   "still": "stills/final/shot17.jpg",
+   "upscaler": "Real-ESRGAN general x4v3 (ONNX, CPU) + Lanczos",
+   "depth_model": "Depth Anything V2 Small (ONNX, CPU)"
+  },
+  "18": {
+   "frames": 12,
+   "phase": "C",
+   "motion": "pull_out",
+   "transition": "cut",
+   "prompt": "young man seen from behind with arms spread wide in front of a private jet at dusk, golden sky, warm golden hour light, amber and teal, rich contrast, candid camera-roll photo, 35mm lens, natural light, shallow depth of field, subtle film grain, cinematic, photorealistic, seen from behind, faceless",
+   "negative": "text, letters, words, logos, brand names, watermark, captions, license plates, signage, UI elements, face, eyes, looking at camera, portrait, money, cash, cartoon, illustration, painting, 3d render, deformed hands, extra fingers, blurry, lowres",
+   "candidates": [
+    {
+     "seed": 11,
+     "model": "cf/sdxl-base",
+     "file": "stills/raw/shot18_s11.png",
+     "secs": 163.5
+    },
+    {
+     "seed": 23,
+     "model": "cf/sdxl-base",
+     "file": "stills/raw/shot18_s23.png",
+     "secs": 10.9
+    }
+   ],
+   "pick": 11,
+   "canvas": "stills/canvas/shot18.jpg",
+   "depth": "stills/depth/shot18.png",
+   "still": "stills/final/shot18.jpg",
+   "upscaler": "Real-ESRGAN general x4v3 (ONNX, CPU) + Lanczos",
+   "depth_model": "Depth Anything V2 Small (ONNX, CPU)"
+  },
+  "19": {
+   "frames": 24,
+   "phase": "C",
+   "motion": "drift",
+   "transition": "light_leak",
+   "prompt": "back view of a man on a lounger with arms spread wide, open laptop beside him, calm mountain lake in soft evening light, warm golden hour light, amber and teal, rich contrast, candid camera-roll photo, 35mm lens, natural light, shallow depth of field, subtle film grain, cinematic, photorealistic, seen from behind, faceless",
+   "negative": "text, letters, words, logos, brand names, watermark, captions, license plates, signage, UI elements, face, eyes, looking at camera, portrait, money, cash, cartoon, illustration, painting, 3d render, deformed hands, extra fingers, blurry, lowres",
+   "candidates": [
+    {
+     "seed": 11,
+     "model": "cf/sdxl-base",
+     "file": "stills/raw/shot19_s11.png",
+     "secs": 11.6
+    },
+    {
+     "seed": 23,
+     "model": "cf/sdxl-base",
+     "file": "stills/raw/shot19_s23.png",
+     "secs": 12.2
+    }
+   ]
+  },
+  "20": {
+   "frames": 12,
+   "phase": "C",
+   "motion": "push_in",
+   "transition": "cut",
+   "prompt": "POV laptop on a dark wooden forest terrace railing, blurred stock charts on screen, hand with watch on trackpad, misty hills at sunrise, warm golden hour light, amber and teal, rich contrast, candid camera-roll photo, 35mm lens, natural light, shallow depth of field, subtle film grain, cinematic, photorealistic, seen from behind, faceless",
+   "negative": "text, letters, words, logos, brand names, watermark, captions, license plates, signage, UI elements, face, eyes, looking at camera, portrait, money, cash, cartoon, illustration, painting, 3d render, deformed hands, extra fingers, blurry, lowres",
+   "candidates": [
+    {
+     "seed": 11,
+     "model": "cf/sdxl-base",
+     "file": "stills/raw/shot20_s11.png",
+     "secs": 9.2
+    },
+    {
+     "seed": 23,
+     "model": "cf/sdxl-base",
+     "file": "stills/raw/shot20_s23.png",
+     "secs": 9.2
+    }
+   ]
+  },
+  "21": {
+   "frames": 12,
+   "phase": "C",
+   "motion": "slide_right",
+   "transition": "cut",
+   "prompt": "extreme close up of a wrist with a gold ring and a watch seen from the side, hand resting on a leather steering wheel, blurred dashboard, warm golden hour light, amber and teal, rich contrast, candid camera-roll photo, 35mm lens, natural light, shallow depth of field, subtle film grain, cinematic, photorealistic, seen from behind, faceless",
+   "negative": "text, letters, words, logos, brand names, watermark, captions, license plates, signage, UI elements, face, eyes, looking at camera, portrait, money, cash, cartoon, illustration, painting, 3d render, deformed hands, extra fingers, blurry, lowres, numbers, emblem, badge, dial markings",
+   "rejected": [
+    {
+     "seed": 11,
+     "model": "cf/sdxl-base",
+     "file": "stills/raw/shot21_s11.png",
+     "secs": 11.0
+    },
+    {
+     "seed": 23,
+     "model": "cf/sdxl-base",
+     "file": "stills/raw/shot21_s23.png",
+     "secs": 9.3
+    }
+   ],
+   "candidates": [
+    {
+     "seed": 37,
+     "model": "cf/sdxl-base",
+     "file": "stills/raw/shot21_s37.png",
+     "secs": 9.7
+    },
+    {
+     "seed": 51,
+     "model": "cf/sdxl-base",
+     "file": "stills/raw/shot21_s51.png",
+     "secs": 9.5
+    },
+    {
+     "seed": 64,
+     "model": "cf/sdxl-base",
+     "file": "stills/raw/shot21_s64.png",
+     "secs": 9.2
+    }
+   ]
+  },
+  "22": {
+   "frames": 12,
+   "phase": "C",
+   "motion": "push_in",
+   "transition": "cut",
+   "prompt": "silhouette of a man in a dark suit sipping coffee by a huge library window at sunset, old-money study, vintage warm film look, skyline, warm golden hour light, amber and teal, rich contrast, candid camera-roll photo, 35mm lens, natural light, shallow depth of field, subtle film grain, cinematic, photorealistic, seen from behind, faceless",
+   "negative": "text, letters, words, logos, brand names, watermark, captions, license plates, signage, UI elements, face, eyes, looking at camera, portrait, money, cash, cartoon, illustration, painting, 3d render, deformed hands, extra fingers, blurry, lowres",
+   "candidates": [
+    {
+     "seed": 11,
+     "model": "cf/sdxl-base",
+     "file": "stills/raw/shot22_s11.png",
+     "secs": 9.3
+    },
+    {
+     "seed": 23,
+     "model": "cf/sdxl-base",
+     "file": "stills/raw/shot22_s23.png",
+     "secs": 23.0
+    }
+   ]
+  },
+  "23": {
+   "frames": 36,
+   "phase": "C",
+   "motion": "sweep",
+   "transition": "light_leak",
+   "prompt": "rooftop terrace overlooking a vast city skyline at golden hour, sweeping cinematic view, lounge chairs, warm golden hour light, amber and teal, rich contrast, candid camera-roll photo, 35mm lens, natural light, shallow depth of field, subtle film grain, cinematic, photorealistic, seen from behind, faceless",
+   "negative": "text, letters, words, logos, brand names, watermark, captions, license plates, signage, UI elements, face, eyes, looking at camera, portrait, money, cash, cartoon, illustration, painting, 3d render, deformed hands, extra fingers, blurry, lowres",
+   "candidates": [
+    {
+     "seed": 11,
+     "model": "cf/sdxl-base",
+     "file": "stills/raw/shot23_s11.png",
+     "secs": 9.3
+    },
+    {
+     "seed": 23,
+     "model": "cf/sdxl-base",
+     "file": "stills/raw/shot23_s23.png",
+     "secs": 10.2
+    }
+   ]
+  },
+  "24": {
+   "frames": 12,
+   "phase": "Cn",
+   "motion": "push_in",
+   "transition": "whip",
+   "prompt": "hand opening the door of a black luxury car at night, warm interior glow, wet street, night, deep blue and warm amber city lights, candid camera-roll photo, 35mm lens, natural light, shallow depth of field, subtle film grain, cinematic, photorealistic, seen from behind, faceless",
+   "negative": "text, letters, words, logos, brand names, watermark, captions, license plates, signage, UI elements, face, eyes, looking at camera, portrait, money, cash, cartoon, illustration, painting, 3d render, deformed hands, extra fingers, blurry, lowres",
+   "candidates": [
+    {
+     "seed": 11,
+     "model": "cf/sdxl-base",
+     "file": "stills/raw/shot24_s11.png",
+     "secs": 9.8
+    },
+    {
+     "seed": 23,
+     "model": "cf/sdxl-base",
+     "file": "stills/raw/shot24_s23.png",
+     "secs": 10.5
+    }
+   ]
+  },
+  "25": {
+   "frames": 24,
+   "phase": "C",
+   "motion": "pull_out",
+   "transition": "cut",
+   "prompt": "aerial view of a modern glass villa on a cliff over the sea at sunset, infinity pool, tiny distant silhouette, warm golden hour light, amber and teal, rich contrast, candid camera-roll photo, 35mm lens, natural light, shallow depth of field, subtle film grain, cinematic, photorealistic, seen from behind, faceless",
+   "negative": "text, letters, words, logos, brand names, watermark, captions, license plates, signage, UI elements, face, eyes, looking at camera, portrait, money, cash, cartoon, illustration, painting, 3d render, deformed hands, extra fingers, blurry, lowres",
+   "candidates": [
+    {
+     "seed": 11,
+     "model": "cf/sdxl-base",
+     "file": "stills/raw/shot25_s11.png",
+     "secs": 9.8
+    },
+    {
+     "seed": 23,
+     "model": "cf/sdxl-base",
+     "file": "stills/raw/shot25_s23.png",
+     "secs": 10.3
+    }
+   ]
+  },
+  "26": {
+   "frames": 36,
+   "phase": "C",
+   "motion": "push_in",
+   "transition": "light_leak",
+   "prompt": "young man with dark curly hair seen from behind with a laptop on a cliffside Mediterranean balcony at golden hour, turquoise bay with boats below, warm golden hour light, amber and teal, rich contrast, candid camera-roll photo, 35mm lens, natural light, shallow depth of field, subtle film grain, cinematic, photorealistic, seen from behind, faceless",
+   "negative": "text, letters, words, logos, brand names, watermark, captions, license plates, signage, UI elements, face, eyes, looking at camera, portrait, money, cash, cartoon, illustration, painting, 3d render, deformed hands, extra fingers, blurry, lowres",
+   "candidates": [
+    {
+     "seed": 11,
+     "model": "cf/sdxl-base",
+     "file": "stills/raw/shot26_s11.png",
+     "secs": 10.5
+    },
+    {
+     "seed": 23,
+     "model": "cf/sdxl-base",
+     "file": "stills/raw/shot26_s23.png",
+     "secs": 11.1
+    }
+   ]
+  },
+  "27": {
+   "frames": 60,
+   "phase": "D",
+   "motion": "push_in_slowest",
+   "transition": "cut",
+   "prompt": "balcony table with an espresso, open notebook and closed laptop, silhouette of a young man looking out at the sea, soft golden light, soft warm golden light, calm and still, candid camera-roll photo, 35mm lens, natural light, shallow depth of field, subtle film grain, cinematic, photorealistic, seen from behind, faceless",
+   "negative": "text, letters, words, logos, brand names, watermark, captions, license plates, signage, UI elements, face, eyes, looking at camera, portrait, money, cash, cartoon, illustration, painting, 3d render, deformed hands, extra fingers, blurry, lowres",
+   "candidates": [
+    {
+     "seed": 11,
+     "model": "cf/sdxl-base",
+     "file": "stills/raw/shot27_s11.png",
+     "secs": 9.8
+    },
+    {
+     "seed": 23,
+     "model": "cf/sdxl-base",
+     "file": "stills/raw/shot27_s23.png",
+     "secs": 9.1
+    }
+   ]
+  }
+ }
+}

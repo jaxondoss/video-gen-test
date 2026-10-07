@@ -1,0 +1,90 @@
+2026-10-07T08:39:30.917731Z pollinations/flux size=768x1344 seed=7 :: Pollinations keyless anonymous tier: no account or key is sent, so nothing can be billed.
+2026-10-07T08:39:31.729069Z pollinations/flux size=1024x1024 seed=7 :: Pollinations keyless anonymous tier: no account or key is sent, so nothing can be billed.
+2026-10-07T08:39:32.698906Z pollinations/zimage size=768x1344 seed=7 :: Pollinations keyless anonymous tier: no account or key is sent, so nothing can be billed.
+2026-10-07T08:39:33.925236Z pollinations/zimage size=1024x1024 seed=7 :: Pollinations keyless anonymous tier: no account or key is sent, so nothing can be billed.
+2026-10-07T08:39:34.611580Z pollinations/klein size=768x1344 seed=7 :: Pollinations keyless anonymous tier: no account or key is sent, so nothing can be billed.
+2026-10-07T08:39:35.325773Z pollinations/klein size=1024x1024 seed=7 :: Pollinations keyless anonymous tier: no account or key is sent, so nothing can be billed.
+2026-10-07T08:39:36.251919Z huggingface/black-forest-labs/FLUX.1-schnell size=768x1344 seed=7 :: HF free account (isPro=false, canPay=false): only monthly free credits, cannot be charged.
+2026-10-07T08:39:48.818254Z huggingface/black-forest-labs/FLUX.1-schnell size=1024x1024 seed=7 :: HF free account (isPro=false, canPay=false): only monthly free credits, cannot be charged.
+2026-10-07T08:40:01.529708Z huggingface/black-forest-labs/FLUX.1-dev size=768x1344 seed=7 :: HF free account (isPro=false, canPay=false): only monthly free credits, cannot be charged.
+2026-10-07T08:40:14.181055Z huggingface/black-forest-labs/FLUX.1-dev size=1024x1024 seed=7 :: HF free account (isPro=false, canPay=false): only monthly free credits, cannot be charged.
+2026-10-07T08:40:26.759838Z huggingface/stabilityai/stable-diffusion-xl-base-1.0 size=768x1344 seed=7 :: HF free account (isPro=false, canPay=false): only monthly free credits, cannot be charged.
+2026-10-07T08:40:40.660654Z huggingface/stabilityai/stable-diffusion-xl-base-1.0 size=1024x1024 seed=7 :: HF free account (isPro=false, canPay=false): only monthly free credits, cannot be charged.
+2026-10-07T22:05:46.368948Z cf/sdxl-base (@cf/stabilityai/stable-diffusion-xl-base-1.0) 768x1344 seed=7 :: Cloudflare catalog lists price $0 per step (beta).
+2026-10-07T22:05:57.882519Z cf/sdxl-lightning (@cf/bytedance/stable-diffusion-xl-lightning) 768x1344 seed=7 :: Cloudflare catalog lists price $0 per step (beta).
+2026-10-07T22:06:02.226722Z cf/flux-schnell (@cf/black-forest-labs/flux-1-schnell) 768x1344 seed=7 :: Inside Cloudflare's free 10,000 neurons/day allocation (all plans); capped locally at 5,000/day.
+2026-10-07T22:06:02.756152Z hf/flux-schnell (black-forest-labs/FLUX.1-schnell) 768x1344 seed=7 :: HF free account (isPro=false, canPay=false): monthly free credits only, cannot be charged.
+2026-10-07T22:06:10.720909Z cf/flux-schnell (@cf/black-forest-labs/flux-1-schnell) 768x1344 seed=7 :: Inside Cloudflare's free 10,000 neurons/day allocation (all plans); capped locally at 5,000/day.
+2026-10-07T22:06:24.366263Z hf/flux-schnell (black-forest-labs/FLUX.1-schnell) 768x1344 seed=7 :: HF free account (isPro=false, canPay=false): monthly free credits only, cannot be charged.
+2026-10-07T22:07:43.619559Z cf/sdxl-base (@cf/stabilityai/stable-diffusion-xl-base-1.0) 768x1344 seed=11 :: Cloudflare catalog lists price $0 per step (beta).
+2026-10-07T22:07:53.158136Z cf/sdxl-base (@cf/stabilityai/stable-diffusion-xl-base-1.0) 768x1344 seed=23 :: Cloudflare catalog lists price $0 per step (beta).
+2026-10-07T22:08:04.093384Z cf/sdxl-base (@cf/stabilityai/stable-diffusion-xl-base-1.0) 768x1344 seed=11 :: Cloudflare catalog lists price $0 per step (beta).
+2026-10-07T22:08:14.414720Z cf/sdxl-base (@cf/stabilityai/stable-diffusion-xl-base-1.0) 768x1344 seed=23 :: Cloudflare catalog lists price $0 per step (beta).
+2026-10-07T22:08:25.187306Z cf/sdxl-base (@cf/stabilityai/stable-diffusion-xl-base-1.0) 768x1344 seed=11 :: Cloudflare catalog lists price $0 per step (beta).
+2026-10-07T22:08:35.791328Z cf/sdxl-base (@cf/stabilityai/stable-diffusion-xl-base-1.0) 768x1344 seed=23 :: Cloudflare catalog lists price $0 per step (beta).
+2026-10-07T22:08:46.163162Z cf/sdxl-base (@cf/stabilityai/stable-diffusion-xl-base-1.0) 768x1344 seed=11 :: Cloudflare catalog lists price $0 per step (beta).
+2026-10-07T22:08:55.543643Z cf/sdxl-base (@cf/stabilityai/stable-diffusion-xl-base-1.0) 768x1344 seed=23 :: Cloudflare catalog lists price $0 per step (beta).
+2026-10-07T22:09:04.968337Z cf/sdxl-base (@cf/stabilityai/stable-diffusion-xl-base-1.0) 768x1344 seed=11 :: Cloudflare catalog lists price $0 per step (beta).
+2026-10-07T22:09:14.362071Z cf/sdxl-base (@cf/stabilityai/stable-diffusion-xl-base-1.0) 768x1344 seed=23 :: Cloudflare catalog lists price $0 per step (beta).
+2026-10-07T22:09:25.631310Z cf/sdxl-base (@cf/stabilityai/stable-diffusion-xl-base-1.0) 768x1344 seed=11 :: Cloudflare catalog lists price $0 per step (beta).
+2026-10-07T22:09:34.913039Z cf/sdxl-base (@cf/stabilityai/stable-diffusion-xl-base-1.0) 768x1344 seed=23 :: Cloudflare catalog lists price $0 per step (beta).
+2026-10-07T22:09:46.482571Z cf/sdxl-base (@cf/stabilityai/stable-diffusion-xl-base-1.0) 768x1344 seed=11 :: Cloudflare catalog lists price $0 per step (beta).
+2026-10-07T22:09:55.861620Z cf/sdxl-base (@cf/stabilityai/stable-diffusion-xl-base-1.0) 768x1344 seed=23 :: Cloudflare catalog lists price $0 per step (beta).
+2026-10-07T22:10:07.326844Z cf/sdxl-base (@cf/stabilityai/stable-diffusion-xl-base-1.0) 768x1344 seed=11 :: Cloudflare catalog lists price $0 per step (beta).
+2026-10-07T22:10:17.187399Z cf/sdxl-base (@cf/stabilityai/stable-diffusion-xl-base-1.0) 768x1344 seed=23 :: Cloudflare catalog lists price $0 per step (beta).
+2026-10-07T22:10:27.717223Z cf/sdxl-base (@cf/stabilityai/stable-diffusion-xl-base-1.0) 768x1344 seed=11 :: Cloudflare catalog lists price $0 per step (beta).
+2026-10-07T22:10:38.693907Z cf/sdxl-base (@cf/stabilityai/stable-diffusion-xl-base-1.0) 768x1344 seed=23 :: Cloudflare catalog lists price $0 per step (beta).
+2026-10-07T22:10:48.380319Z cf/sdxl-base (@cf/stabilityai/stable-diffusion-xl-base-1.0) 768x1344 seed=11 :: Cloudflare catalog lists price $0 per step (beta).
+2026-10-07T22:10:57.676558Z cf/sdxl-base (@cf/stabilityai/stable-diffusion-xl-base-1.0) 768x1344 seed=23 :: Cloudflare catalog lists price $0 per step (beta).
+2026-10-07T22:11:09.075189Z cf/sdxl-base (@cf/stabilityai/stable-diffusion-xl-base-1.0) 768x1344 seed=11 :: Cloudflare catalog lists price $0 per step (beta).
+2026-10-07T22:11:18.502454Z cf/sdxl-base (@cf/stabilityai/stable-diffusion-xl-base-1.0) 768x1344 seed=23 :: Cloudflare catalog lists price $0 per step (beta).
+2026-10-07T22:11:29.295028Z cf/sdxl-base (@cf/stabilityai/stable-diffusion-xl-base-1.0) 768x1344 seed=11 :: Cloudflare catalog lists price $0 per step (beta).
+2026-10-07T22:11:38.716390Z cf/sdxl-base (@cf/stabilityai/stable-diffusion-xl-base-1.0) 768x1344 seed=23 :: Cloudflare catalog lists price $0 per step (beta).
+2026-10-07T22:11:48.906015Z cf/sdxl-base (@cf/stabilityai/stable-diffusion-xl-base-1.0) 768x1344 seed=11 :: Cloudflare catalog lists price $0 per step (beta).
+2026-10-07T22:11:58.445478Z cf/sdxl-base (@cf/stabilityai/stable-diffusion-xl-base-1.0) 768x1344 seed=23 :: Cloudflare catalog lists price $0 per step (beta).
+2026-10-07T22:12:08.914799Z cf/sdxl-base (@cf/stabilityai/stable-diffusion-xl-base-1.0) 768x1344 seed=11 :: Cloudflare catalog lists price $0 per step (beta).
+2026-10-07T22:12:18.271841Z cf/sdxl-base (@cf/stabilityai/stable-diffusion-xl-base-1.0) 768x1344 seed=23 :: Cloudflare catalog lists price $0 per step (beta).
+2026-10-07T22:12:29.223518Z cf/sdxl-base (@cf/stabilityai/stable-diffusion-xl-base-1.0) 768x1344 seed=11 :: Cloudflare catalog lists price $0 per step (beta).
+2026-10-07T22:12:39.981182Z cf/sdxl-base (@cf/stabilityai/stable-diffusion-xl-base-1.0) 768x1344 seed=23 :: Cloudflare catalog lists price $0 per step (beta).
+2026-10-07T22:12:49.757303Z cf/sdxl-base (@cf/stabilityai/stable-diffusion-xl-base-1.0) 768x1344 seed=11 :: Cloudflare catalog lists price $0 per step (beta).
+2026-10-07T22:13:00.513564Z cf/sdxl-base (@cf/stabilityai/stable-diffusion-xl-base-1.0) 768x1344 seed=23 :: Cloudflare catalog lists price $0 per step (beta).
+2026-10-07T22:13:11.249255Z cf/sdxl-base (@cf/stabilityai/stable-diffusion-xl-base-1.0) 768x1344 seed=11 :: Cloudflare catalog lists price $0 per step (beta).
+2026-10-07T22:13:21.416301Z cf/sdxl-base (@cf/stabilityai/stable-diffusion-xl-base-1.0) 768x1344 seed=23 :: Cloudflare catalog lists price $0 per step (beta).
+2026-10-07T22:13:31.951964Z cf/sdxl-base (@cf/stabilityai/stable-diffusion-xl-base-1.0) 768x1344 seed=11 :: Cloudflare catalog lists price $0 per step (beta).
+2026-10-07T22:16:15.425410Z cf/sdxl-base (@cf/stabilityai/stable-diffusion-xl-base-1.0) 768x1344 seed=23 :: Cloudflare catalog lists price $0 per step (beta).
+2026-10-07T22:16:26.316860Z cf/sdxl-base (@cf/stabilityai/stable-diffusion-xl-base-1.0) 768x1344 seed=11 :: Cloudflare catalog lists price $0 per step (beta).
+2026-10-07T22:16:37.963588Z cf/sdxl-base (@cf/stabilityai/stable-diffusion-xl-base-1.0) 768x1344 seed=23 :: Cloudflare catalog lists price $0 per step (beta).
+2026-10-07T22:16:50.158231Z cf/sdxl-base (@cf/stabilityai/stable-diffusion-xl-base-1.0) 768x1344 seed=11 :: Cloudflare catalog lists price $0 per step (beta).
+2026-10-07T22:16:59.390460Z cf/sdxl-base (@cf/stabilityai/stable-diffusion-xl-base-1.0) 768x1344 seed=23 :: Cloudflare catalog lists price $0 per step (beta).
+2026-10-07T22:17:08.629892Z cf/sdxl-base (@cf/stabilityai/stable-diffusion-xl-base-1.0) 768x1344 seed=11 :: Cloudflare catalog lists price $0 per step (beta).
+2026-10-07T22:17:19.664087Z cf/sdxl-base (@cf/stabilityai/stable-diffusion-xl-base-1.0) 768x1344 seed=23 :: Cloudflare catalog lists price $0 per step (beta).
+2026-10-07T22:17:29.005142Z cf/sdxl-base (@cf/stabilityai/stable-diffusion-xl-base-1.0) 768x1344 seed=11 :: Cloudflare catalog lists price $0 per step (beta).
+2026-10-07T22:17:38.284556Z cf/sdxl-base (@cf/stabilityai/stable-diffusion-xl-base-1.0) 768x1344 seed=23 :: Cloudflare catalog lists price $0 per step (beta).
+2026-10-07T22:18:01.272980Z cf/sdxl-base (@cf/stabilityai/stable-diffusion-xl-base-1.0) 768x1344 seed=11 :: Cloudflare catalog lists price $0 per step (beta).
+2026-10-07T22:18:10.594837Z cf/sdxl-base (@cf/stabilityai/stable-diffusion-xl-base-1.0) 768x1344 seed=23 :: Cloudflare catalog lists price $0 per step (beta).
+2026-10-07T22:18:20.784521Z cf/sdxl-base (@cf/stabilityai/stable-diffusion-xl-base-1.0) 768x1344 seed=11 :: Cloudflare catalog lists price $0 per step (beta).
+2026-10-07T22:18:30.609579Z cf/sdxl-base (@cf/stabilityai/stable-diffusion-xl-base-1.0) 768x1344 seed=23 :: Cloudflare catalog lists price $0 per step (beta).
+2026-10-07T22:18:41.117715Z cf/sdxl-base (@cf/stabilityai/stable-diffusion-xl-base-1.0) 768x1344 seed=11 :: Cloudflare catalog lists price $0 per step (beta).
+2026-10-07T22:18:50.915011Z cf/sdxl-base (@cf/stabilityai/stable-diffusion-xl-base-1.0) 768x1344 seed=23 :: Cloudflare catalog lists price $0 per step (beta).
+2026-10-07T22:19:01.187336Z cf/sdxl-base (@cf/stabilityai/stable-diffusion-xl-base-1.0) 768x1344 seed=11 :: Cloudflare catalog lists price $0 per step (beta).
+2026-10-07T22:19:11.693620Z cf/sdxl-base (@cf/stabilityai/stable-diffusion-xl-base-1.0) 768x1344 seed=23 :: Cloudflare catalog lists price $0 per step (beta).
+2026-10-07T22:19:22.772862Z cf/sdxl-base (@cf/stabilityai/stable-diffusion-xl-base-1.0) 768x1344 seed=11 :: Cloudflare catalog lists price $0 per step (beta).
+2026-10-07T22:19:32.621494Z cf/sdxl-base (@cf/stabilityai/stable-diffusion-xl-base-1.0) 768x1344 seed=23 :: Cloudflare catalog lists price $0 per step (beta).
+2026-10-07T22:21:00.346852Z cf/sdxl-base (@cf/stabilityai/stable-diffusion-xl-base-1.0) 768x1344 seed=37 :: Cloudflare catalog lists price $0 per step (beta).
+2026-10-07T22:21:09.732128Z cf/sdxl-base (@cf/stabilityai/stable-diffusion-xl-base-1.0) 768x1344 seed=51 :: Cloudflare catalog lists price $0 per step (beta).
+2026-10-07T22:21:20.866982Z cf/sdxl-base (@cf/stabilityai/stable-diffusion-xl-base-1.0) 768x1344 seed=64 :: Cloudflare catalog lists price $0 per step (beta).
+2026-10-07T22:21:31.612701Z cf/sdxl-base (@cf/stabilityai/stable-diffusion-xl-base-1.0) 768x1344 seed=37 :: Cloudflare catalog lists price $0 per step (beta).
+2026-10-07T22:21:40.708446Z cf/sdxl-base (@cf/stabilityai/stable-diffusion-xl-base-1.0) 768x1344 seed=51 :: Cloudflare catalog lists price $0 per step (beta).
+2026-10-07T22:21:50.030264Z cf/sdxl-base (@cf/stabilityai/stable-diffusion-xl-base-1.0) 768x1344 seed=64 :: Cloudflare catalog lists price $0 per step (beta).
+2026-10-07T22:22:00.979675Z cf/sdxl-base (@cf/stabilityai/stable-diffusion-xl-base-1.0) 768x1344 seed=37 :: Cloudflare catalog lists price $0 per step (beta).
+2026-10-07T22:22:10.502613Z cf/sdxl-base (@cf/stabilityai/stable-diffusion-xl-base-1.0) 768x1344 seed=51 :: Cloudflare catalog lists price $0 per step (beta).
+2026-10-07T22:22:21.481899Z cf/sdxl-base (@cf/stabilityai/stable-diffusion-xl-base-1.0) 768x1344 seed=64 :: Cloudflare catalog lists price $0 per step (beta).
+2026-10-07T22:22:32.625414Z cf/sdxl-base (@cf/stabilityai/stable-diffusion-xl-base-1.0) 768x1344 seed=37 :: Cloudflare catalog lists price $0 per step (beta).
+2026-10-07T22:22:51.675092Z cf/sdxl-base (@cf/stabilityai/stable-diffusion-xl-base-1.0) 768x1344 seed=51 :: Cloudflare catalog lists price $0 per step (beta).
+2026-10-07T22:23:01.173381Z cf/sdxl-base (@cf/stabilityai/stable-diffusion-xl-base-1.0) 768x1344 seed=64 :: Cloudflare catalog lists price $0 per step (beta).
+2026-10-07T22:23:12.407401Z cf/sdxl-base (@cf/stabilityai/stable-diffusion-xl-base-1.0) 768x1344 seed=37 :: Cloudflare catalog lists price $0 per step (beta).
+2026-10-07T22:23:23.419023Z cf/sdxl-base (@cf/stabilityai/stable-diffusion-xl-base-1.0) 768x1344 seed=51 :: Cloudflare catalog lists price $0 per step (beta).
+2026-10-07T22:23:44.956550Z cf/sdxl-base (@cf/stabilityai/stable-diffusion-xl-base-1.0) 768x1344 seed=64 :: Cloudflare catalog lists price $0 per step (beta).
+2026-10-07T22:23:55.796932Z cf/sdxl-base (@cf/stabilityai/stable-diffusion-xl-base-1.0) 768x1344 seed=37 :: Cloudflare catalog lists price $0 per step (beta).
+2026-10-07T22:24:05.474945Z cf/sdxl-base (@cf/stabilityai/stable-diffusion-xl-base-1.0) 768x1344 seed=51 :: Cloudflare catalog lists price $0 per step (beta).
+2026-10-07T22:24:14.977661Z cf/sdxl-base (@cf/stabilityai/stable-diffusion-xl-base-1.0) 768x1344 seed=64 :: Cloudflare catalog lists price $0 per step (beta).

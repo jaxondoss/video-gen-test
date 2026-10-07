@@ -1,0 +1,7 @@
+cache/
+stills/raw/
+stills/canvas/
+stills/depth/
+frames/
+smoke/view/
+__pycache__/
