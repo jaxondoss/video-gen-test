@@ -624,7 +624,13 @@
      "file": "stills/raw/shot19_s23.png",
      "secs": 12.2
     }
-   ]
+   ],
+   "pick": 23,
+   "canvas": "stills/canvas/shot19.jpg",
+   "depth": "stills/depth/shot19.png",
+   "still": "stills/final/shot19.jpg",
+   "upscaler": "Real-ESRGAN general x4v3 (ONNX, CPU) + Lanczos",
+   "depth_model": "Depth Anything V2 Small (ONNX, CPU)"
   },
   "20": {
    "frames": 12,
@@ -646,7 +652,13 @@
      "file": "stills/raw/shot20_s23.png",
      "secs": 9.2
     }
-   ]
+   ],
+   "pick": 11,
+   "canvas": "stills/canvas/shot20.jpg",
+   "depth": "stills/depth/shot20.png",
+   "still": "stills/final/shot20.jpg",
+   "upscaler": "Real-ESRGAN general x4v3 (ONNX, CPU) + Lanczos",
+   "depth_model": "Depth Anything V2 Small (ONNX, CPU)"
   },
   "21": {
    "frames": 12,
@@ -688,7 +700,13 @@
      "file": "stills/raw/shot21_s64.png",
      "secs": 9.2
     }
-   ]
+   ],
+   "pick": 64,
+   "canvas": "stills/canvas/shot21.jpg",
+   "depth": "stills/depth/shot21.png",
+   "still": "stills/final/shot21.jpg",
+   "upscaler": "Real-ESRGAN general x4v3 (ONNX, CPU) + Lanczos",
+   "depth_model": "Depth Anything V2 Small (ONNX, CPU)"
   },
   "22": {
    "frames": 12,
@@ -710,7 +728,13 @@
      "file": "stills/raw/shot22_s23.png",
      "secs": 23.0
     }
-   ]
+   ],
+   "pick": 23,
+   "canvas": "stills/canvas/shot22.jpg",
+   "depth": "stills/depth/shot22.png",
+   "still": "stills/final/shot22.jpg",
+   "upscaler": "Real-ESRGAN general x4v3 (ONNX, CPU) + Lanczos",
+   "depth_model": "Depth Anything V2 Small (ONNX, CPU)"
   },
   "23": {
    "frames": 36,
@@ -732,7 +756,13 @@
      "file": "stills/raw/shot23_s23.png",
      "secs": 10.2
     }
-   ]
+   ],
+   "pick": 11,
+   "canvas": "stills/canvas/shot23.jpg",
+   "depth": "stills/depth/shot23.png",
+   "still": "stills/final/shot23.jpg",
+   "upscaler": "Real-ESRGAN general x4v3 (ONNX, CPU) + Lanczos",
+   "depth_model": "Depth Anything V2 Small (ONNX, CPU)"
   },
   "24": {
    "frames": 12,
@@ -754,7 +784,13 @@
      "file": "stills/raw/shot24_s23.png",
      "secs": 10.5
     }
-   ]
+   ],
+   "pick": 23,
+   "canvas": "stills/canvas/shot24.jpg",
+   "depth": "stills/depth/shot24.png",
+   "still": "stills/final/shot24.jpg",
+   "upscaler": "Real-ESRGAN general x4v3 (ONNX, CPU) + Lanczos",
+   "depth_model": "Depth Anything V2 Small (ONNX, CPU)"
   },
   "25": {
    "frames": 24,
@@ -776,7 +812,13 @@
      "file": "stills/raw/shot25_s23.png",
      "secs": 10.3
     }
-   ]
+   ],
+   "pick": 23,
+   "canvas": "stills/canvas/shot25.jpg",
+   "depth": "stills/depth/shot25.png",
+   "still": "stills/final/shot25.jpg",
+   "upscaler": "Real-ESRGAN general x4v3 (ONNX, CPU) + Lanczos",
+   "depth_model": "Depth Anything V2 Small (ONNX, CPU)"
   },
   "26": {
    "frames": 36,
@@ -798,7 +840,13 @@
      "file": "stills/raw/shot26_s23.png",
      "secs": 11.1
     }
-   ]
+   ],
+   "pick": 11,
+   "canvas": "stills/canvas/shot26.jpg",
+   "depth": "stills/depth/shot26.png",
+   "still": "stills/final/shot26.jpg",
+   "upscaler": "Real-ESRGAN general x4v3 (ONNX, CPU) + Lanczos",
+   "depth_model": "Depth Anything V2 Small (ONNX, CPU)"
   },
   "27": {
    "frames": 60,
@@ -820,7 +868,13 @@
      "file": "stills/raw/shot27_s23.png",
      "secs": 9.1
     }
-   ]
+   ],
+   "pick": 11,
+   "canvas": "stills/canvas/shot27.jpg",
+   "depth": "stills/depth/shot27.png",
+   "still": "stills/final/shot27.jpg",
+   "upscaler": "Real-ESRGAN general x4v3 (ONNX, CPU) + Lanczos",
+   "depth_model": "Depth Anything V2 Small (ONNX, CPU)"
   }
  }
 }
