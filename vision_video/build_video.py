@@ -57,10 +57,7 @@ def shot_frames(sid, L):
         for i in range(n):
             u = R.ease_io(min(i / (PULLBACK_F - 1), 1.0))
             z = math.exp(math.log(z_end) * (1 - u))
-            f = g.render(z, F)
-            if i >= n - FADE_F:
-                f = f * (1 - (i - (n - FADE_F) + 1) / FADE_F)
-            yield i, f
+            yield i, g.render(z, F)
     else:
         for i in range(n):
             yield i, R.render_shot_frame(L, move, i, n, sid, ramp=sid in RAMP)
@@ -83,6 +80,8 @@ def transitions(gf, frame, sid, i):
             frame = R.light_leak(frame, 0.85 * (j + 1) / 3.5, gf / 24, sid)
         if nxt[5] == "whip":
             frame = R.whip(frame, (0.3, 0.65, 1.0)[j], -1)
+    if sid == 28 and i >= n - FADE_F:  # fade to true black after the grade (grain and lift included)
+        frame = frame * (1 - (i - (n - FADE_F) + 1) / FADE_F)
     return frame
 
 

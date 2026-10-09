@@ -42,16 +42,16 @@ class Layers:
     """Continuous 2.5D parallax: every pixel's zoom, pan and roll is scaled by its depth (near pixels move more).
     Solved by backward mapping (output pixel -> source pixel, two fixed-point iterations on depth), so the
     result has no holes and no layer seams; occlusion edges stretch the background slightly instead of
-    tearing. The disparity map is max-filtered so foreground edges stay crisp."""
+    tearing or doubling."""
 
-    K_FAR, K_NEAR = 0.72, 1.40
+    K_FAR, K_NEAR = 0.85, 1.20
 
     def __init__(self, canvas_bgr, disparity):
         img = cv2.resize(canvas_bgr, WORK, interpolation=cv2.INTER_AREA)
         d = cv2.resize(disparity, WORK, interpolation=cv2.INTER_LINEAR).astype(np.float32)
-        d = cv2.dilate(d, cv2.getStructuringElement(cv2.MORPH_ELLIPSE, (9, 9)))
         self.img = img.astype(np.float32) / 255.0
-        self.d = cv2.GaussianBlur(d, (0, 0), 2.0)
+        # Heavy smoothing keeps the displacement field fold-free: edges stretch slightly instead of doubling.
+        self.d = cv2.GaussianBlur(d, (0, 0), 14.0)
         yy, xx = np.mgrid[0:H, 0:W].astype(np.float32)
         self.qx, self.qy = xx - W / 2, yy - H / 2
 
@@ -113,9 +113,9 @@ def light_leak(frame, strength, t_sec, seed):
     yy, xx = np.mgrid[0:H // 4, 0:W // 4].astype(np.float32)
     cx = (0.15 + 0.7 * ((t_sec * 1.9 + seed * 0.31) % 1.0)) * W / 4
     cy = (0.25 + 0.15 * math.sin(seed + t_sec * 3)) * H / 4
-    g = np.exp(-(((xx - cx) / (W / 4 * 0.55)) ** 2 + ((yy - cy) / (H / 4 * 0.45)) ** 2))
+    g = np.exp(-(((xx - cx) / (W / 4 * 0.75)) ** 2 + ((yy - cy) / (H / 4 * 0.6)) ** 2))
     g = cv2.resize(g, (W, H), interpolation=cv2.INTER_CUBIC)[..., None]
-    leak = g * np.array([0.25, 0.55, 1.0], np.float32) * strength  # BGR: warm orange
+    leak = g * np.array([0.35, 0.72, 1.0], np.float32) * strength * 1.35  # BGR: warm orange
     return 1 - (1 - frame) * (1 - np.clip(leak, 0, 1))
 
 
