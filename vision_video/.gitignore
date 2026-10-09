@@ -7,3 +7,4 @@ smoke/view/
 __pycache__/
 logs/render_*.log
 frames_preview/
+final_crf16_master.mp4
