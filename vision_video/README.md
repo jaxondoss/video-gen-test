@@ -5,7 +5,8 @@ Cloudflare Workers AI stills, then upscaling, depth, parallax motion, transition
 
 | File | What it is |
 |---|---|
-| `final.mp4` | the film (no audio track; add your music) |
+| `final.mp4` | the film (no audio track; add your music), CRF 17, 89 MB |
+| `final_compressed.mp4` | the same film at CRF 24, 21 MB, for sharing and uploading |
 | `contact_sheet.jpg` | all 28 shots, numbered |
 | `preview_contact_strip.jpg` | one frame every 2 s of the final film |
 | `beat_map.json`, `cuts.csv`, `markers.edl` | cut frames, timecodes, transitions, and the 120 BPM beat grid (every cut is on a beat) |
