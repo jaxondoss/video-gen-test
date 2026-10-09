@@ -5,3 +5,5 @@ stills/depth/
 frames/
 smoke/view/
 __pycache__/
+logs/render_*.log
+frames_preview/
