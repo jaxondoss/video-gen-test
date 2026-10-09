@@ -56,3 +56,12 @@ If you change shot 1 or 27, also re-render shot 28 (and shot 1), because their g
 - Every prompt carries the negative `text, letters, words, logos, brand names, watermark, captions, license plates,
   signage, UI elements` plus face and money terms. Picks were checked by eye at full resolution for text, logos and
   faces; 6 shots were regenerated for that reason.
+
+## Notes
+
+- `final.mp4` in the repo is encoded at **CRF 17** (89 MB). The CRF 16 encode from the spec is 104 MB, over GitHub's
+  100 MB file limit, and Git LFS uploads are blocked from the cloud session. To make a CRF 16 master, set `-crf` to 16 in
+  `build_video.py` and run the pipeline (frames are rebuilt locally; they aren't stored in git).
+- No AI video model was used: every shot is local 2.5D parallax (see `models_report.md`).
+- The parallax is a continuous depth warp, not hard layers. Hard layers ghosted silhouettes in testing, and the
+  backward warp has no holes, so no gap inpainting is needed.

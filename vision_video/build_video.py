@@ -115,7 +115,7 @@ def render(only=None):
 
 def encode():
     cmd = ["ffmpeg", "-y", "-loglevel", "error", "-framerate", "24", "-i", str(FR / "%04d.jpg"), "-frames:v", "720",
-           "-c:v", "libx264", "-crf", "16", "-preset", "slow", "-pix_fmt", "yuv420p", "-an",
+           "-c:v", "libx264", "-crf", "17", "-preset", "slow", "-pix_fmt", "yuv420p", "-an",
            "-movflags", "+faststart", str(ROOT / "final.mp4")]
     subprocess.run(cmd, check=True)
     print("encoded final.mp4")
